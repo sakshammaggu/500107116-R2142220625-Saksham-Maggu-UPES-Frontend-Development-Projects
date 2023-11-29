@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Yellow Page</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Black+Ops+One&family=Caveat:wght@500&family=Comfortaa&family=Outfit&family=Teko:wght@300&family=Vina+Sans&display=swap" rel="stylesheet">
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+            rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+            crossorigin="anonymous">
+
+        <link rel="stylesheet" href="./style.css">
+    </head> 
+
+    <body>
+        <header>
+            <div class="container1" id="container-1">
+                <div class="logo-container">
+                    <img src="./YellowPageLogo.png" alt="logo" id="logo">
+                    <span id="logo-title"><b>The Yellow Page Project</b></span>
+                </div>
+        
+                <div class="nav-container">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"><b>Home</b></a>
+                        </li>
+        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="scrollToDivision('container-2')"><b>About</b></a>
+                        </li>
+        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="scrollToDivision('container-3')"><b>Development</b></a>
+                        </li>
+        
+                        <li class="nav-item">
+                            <a class="nav-link" href="..."><b>Github</b></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <br/>
+
+        <div class="container2" id="container-2">
+            <img src="./theme_pic.jpg" alt="theme_pic" id="theme-pic">
+
+            <div class="about-container">
+                <p id="about-quote-para">
+                    <b>
+                        -"Development is the heartbeat of progress, where innovation intertwines with determination. In the symphony of growth, 
+                        each line of code, every idea cultivated, and every hurdle overcome plays a pivotal note, shaping a future defined by 
+                        continuous evolution and boundless possibilities."
+                    </b>
+                </p>
+
+                <h1 id="about-heading">The Craze Of Development</h1>
+
+                <br/>
+
+                <p id="about-para">
+                    <b>
+                        The contemporary craze for development encapsulates a fervent pursuit of innovation in the technological landscape. 
+                        Accelerated by breakthroughs in artificial intelligence, machine learning, and digital connectivity, individuals and 
+                        businesses are driven to harness cutting-edge solutions. The surge in software, web and app development, coupled with 
+                        a thriving startup culture, attests to an insatiable appetite for creating impactful solutions. Open-source collaboration 
+                        on coding highlight a collective endeavor towards progress.
+                    </b>
+                </p>
+
+                <button id="about-btn" class="btn btn-primary" onclick="scrollToDivision('container-3')">
+                    <b>Explore</b>
+                </button>
+            </div>
+        </div>
+
+        <!-- <br/> -->
+
+        <h1 id="card-heading">DOCUMENTATION</h1>
+
+        <div class="container3" id="container-3">
+            <div class="card" id="web-dev" style="width: 18rem;">
+                <img src="./web_development.jpeg" class="card-img-top" alt="web-development">
+
+                <div class="card-body">
+                  <h5 class="card-title">Web Development</h5>
+
+                  <p class="card-text">
+                    Full-stack web development encompasses both frontend and backend technologies, allowing developers to create end-to-end 
+                    solutions, managing databases, server logic, and user interfaces seamlessly.
+                  </p>
+
+                  <a href="./webdev.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+
+            <div class="card" id="android-dev" style="width: 18rem;">
+                <img src="./android-development.jpeg" class="card-img-top" alt="android-development">
+
+                <div class="card-body">
+                  <h5 class="card-title">Android Development</h5>
+
+                  <p class="card-text">
+                    Android development empowers creating innovative mobile applications. Leveraging Java or Kotlin, developers 
+                    design feature-rich apps for diverse functionalities on the Android platform, catering to a vast user base.
+                  </p>
+
+                  <a href="./androiddev.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+
+            <div class="card" id="aiml" style="width: 18rem;">
+                <img src="./aiml.jpeg" class="card-img-top" alt="ai-ml">
+
+                <div class="card-body">
+                  <h5 class="card-title">Artifical Intelligence / Machine Learning</h5>
+
+                  <p class="card-text">
+                    Artificial Intelligence and Machine Learning (AI/ML) represent the frontier of technology, the core of machines, 
+                    enabling systems to learn, adapt, and make intelligent decisions. 
+                  </p>
+
+                  <a href="./androiddev.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        
+        <span>  
+            <img src="./overall-development2.jpg" alt="overall-development2-pic" id="overall-development2-pic">
+        </span>
+
+        <span>
+            <img src="./overall-development1.jpg" alt="overall-development1-pic" id="overall-development1-pic">
+        </span>
+
+        <span>
+            <img src="./overall-development.jpg" alt="overall-development" id="overall-development-pic">
+        </span>
+
+        <footer>
+            <div class="container4" id="container-4">
+                <h1 id="footer-heading">Don't Miss Out!!</h1>
+
+                <p id="footer-para1">Sign up for the latest beauty news, product samples and coupons.</p>
+
+                <label for="account-email" id="email" class="account">Email Address*</label>
+                <br/>
+                <input type="text" id="account-email" class="account" placeholder="Enter Your Email Address">
+
+                <label for="account-dob" id="dob" class="account">DOB*</label>
+                <br/>
+                <input type="date" id="account-dob" class="account">
+
+                <button id="account-submit-btn" class="btn account"><b>Submit</b></button>
+
+                <p id="footer-para2">
+                    By signing up, you understand and agree that your data will be 
+                    <br/>
+                    collected and used subject to our 
+                    <a href="..." id="footer-para1-privacy">Privacy Policy</a> and <a href="..." id="footer-para1-terms-conditions">Terms Of Use</a>.
+                </p>
+
+                <h4 id="company">COMPANY</h4>
+                <ul id="footer-company-list1">
+                    <li>
+                        <a href="#" id="list1-home" onclick="scrollToDivision('container-1')">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" id="list1-about" onclick="scrollToDivision('container-2')">
+                            About
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" id="list1-development" onclick="scrollToDivision('container-3')">
+                            Development
+                        </a>
+                    </li>
+                </ul>
+
+                <h4 id="development">DEVELOPMENT</h4>
+                <ul id="footer-development-list2">
+                    <li>
+                        <a href="./webdev.html" id="list2-webdev">
+                            Web Development
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./androiddev.html" id="list2-androiddev">
+                            Android Development
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./aiml.html" id="list2-aiml">
+                            AI / ML
+                        </a>
+                    </li>
+                </ul>
+
+                <h4 id="more">MORE</h4>
+                <ul id="footer-more-list3">
+                    <li>
+                        <a href="..." id="list3-contact">
+                            Contact Us
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="..." id="list3-privacy">
+                            Privacy Policy
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="..." id="list3-terms">
+                            Terms and Condtitions
+                        </a>
+                    </li>
+                </ul>
+
+                <p id="footer-quote-para">
+                    <b>
+                        -"Development is the heartbeat of progress, where innovation intertwines with 
+                        <br/>
+                        determination. In the symphony of growth, 
+                        each line of code, every idea cultivated, 
+                        <br/>
+                        and every hurdle overcome plays a pivotal note, shaping a future defined by 
+                        <br/>
+                        continuous evolution and boundless possibilities."
+                    </b>
+                </p>
+            </div>
+        </footer>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
