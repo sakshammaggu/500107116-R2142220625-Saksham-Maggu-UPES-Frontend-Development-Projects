@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(145, 144, 144);
+    margin: 0;
+    padding: 20px;
+}
+
+#invoice {
+    background-color: antiquewhite;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border: 3px solid red;
+}
+
+.product-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.product-row input {
+    width: 60px;
+    text-align: center;
+}
+
+#total {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.add-product-btn {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.generate-invoice-btn {
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}

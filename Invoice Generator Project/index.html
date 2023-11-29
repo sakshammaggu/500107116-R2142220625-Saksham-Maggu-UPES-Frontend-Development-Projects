@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Invoice Generator</title>
+        
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div id="invoice">
+            <h2>Invoice Generator</h2>
+
+            <div id="product-list">
+                <!-- Product rows will be added here dynamically -->
+            </div>
+
+            <button class="add-product-btn" onclick="addProduct()">+ Add Product</button>
+
+            <button class="generate-invoice-btn" onclick="generateInvoice()">Generate Invoice</button>
+
+            <div id="total">Total: $0.00</div>
+
+            <textarea id="invoice-output" cols="80" rows="10" readonly></textarea>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
